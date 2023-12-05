@@ -1,1 +1,76 @@
 /*Schrijf hier jouw CSS*/
+
+/* OPDRACHT 1*/
+
+.opdracht-1 {
+    border: 2px solid black;
+
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    overflow: hidden;
+}
+
+/* OPDRACHT 2*/
+.opdracht-2 ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.opdracht-2 li {
+    display: flex;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+/* OPDRACHT 3*/
+.opdracht-3 ul {
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-3 ul .top{
+
+    align-self: flex-start;
+}
+.opdracht-3 ul .center{
+
+    align-self: center;
+}
+.opdracht-3 ul .bottom{
+
+    align-self: flex-end;
+}
+
+
+/*top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: revert;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}*/
+
